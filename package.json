@@ -1,16 +1,26 @@
 {
   "name": "progweb-td3",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "main": "src/scripts/index.js",
   "scripts": {
-    "build": "esbuild src/index.js --bundle --minify --sourcemap --outfile=dist/index.js",
+    "dev": "live-server",
+    "build": "esbuild src/scripts/index.js --bundle --minify --sourcemap --outfile=dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "esbuild": "^0.24.2"
-  }
+    "esbuild": "^0.24.2",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vraiSlophil/progweb-td3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vraiSlophil/progweb-td3/issues"
+  },
+  "homepage": "https://github.com/vraiSlophil/progweb-td3#readme",
+  "description": ""
 }
